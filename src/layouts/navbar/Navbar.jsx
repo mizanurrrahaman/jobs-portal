@@ -37,7 +37,12 @@ const Navbar = () => {
               <Link href="tel:+1-202-555-0178">+1-202-555-0178</Link>
             </div>
             <div className="phone_info">
-              🇺🇸 <span>English</span> <SlArrowDown className="down_arrow" />
+              <img
+                style={{ height: "16px", width: "24px" }}
+                src="https://flagcdn.com/w320/us.png"
+                alt=""
+              />
+              <span>English</span> <SlArrowDown className="down_arrow" />
             </div>
           </div>
         </div>

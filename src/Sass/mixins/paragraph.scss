@@ -1,0 +1,10 @@
+@import "../common/variables.scss";
+
+// praragraph design
+@mixin paragraph {
+  color: $textColor;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  font-family: $inter;
+}
