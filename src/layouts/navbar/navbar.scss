@@ -1,4 +1,5 @@
 @import "../../Sass/common/variables.scss";
+@import "../../Sass//mixins/btn.scss";
 // Navbar Design Start
 .navbar {
   padding: 12px 0;
@@ -34,6 +35,9 @@
           .down_arrow {
             height: 16px;
             width: 16px;
+          }
+          .commonBtn {
+            @include btn;
           }
         }
       }
