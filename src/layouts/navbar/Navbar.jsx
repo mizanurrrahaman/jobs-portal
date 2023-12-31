@@ -33,8 +33,10 @@ const Navbar = () => {
           </div>
           <div className="phone_language">
             <div className="phone_info">
-              <FaPhoneVolume />
-              <Link href="tel:+1-202-555-0178">+1-202-555-0178</Link>
+              <FaPhoneVolume className="phone_number" />
+              <Link className="phone_number" href="tel:+1-202-555-0178">
+                +1-202-555-0178
+              </Link>
             </div>
             <div className="phone_info">
               <img
@@ -42,8 +44,7 @@ const Navbar = () => {
                 src="https://flagcdn.com/w320/us.png"
                 alt=""
               />
-              <span>English</span> <SlArrowDown className="down_arrow" />
-              <button className="commonBtn">Hello</button>
+              <span className="english">English</span> <SlArrowDown className="down_arrow" />
             </div>
           </div>
         </div>
