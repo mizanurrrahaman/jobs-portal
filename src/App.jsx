@@ -1,9 +1,24 @@
+import {
+  createBrowserRouter,
+  RouterProvider,
+  createRoutesFromElements,
+  Route,
+} from "react-router-dom";
+import MainLayout from "./layouts/MainLayout";
+import Home from "./pages/home/Home";
+import Jobs from "./pages/jobs/Jobs";
 
-function App() {
-  return (
-    <>
-      <h1>Hello World</h1>
-    </>
+// All Routes
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route element={<MainLayout />}>
+      <Route path="/" element={<Home />} />
+      <Route path="/jobs" element={<Jobs />} />
+    </Route>
   )
-}
-export default App
+);
+
+const App = () => {
+  return <RouterProvider router={router} />;
+};
+export default App;

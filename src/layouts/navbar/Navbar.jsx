@@ -7,14 +7,16 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="container">
         <div className="nav_wrapper">
-          <div className="logo"></div>
+          <div className="logo">
+            <h2>Jobportal</h2>
+          </div>
           <div className="menu">
             <ul>
               <li>
-                <NavLink>Home</NavLink>
+                <NavLink to="/">Home</NavLink>
               </li>
               <li>
-                <NavLink>Jobs</NavLink>
+                <NavLink to="/jobs">Jobs</NavLink>
               </li>
               <li>
                 <NavLink>About Us</NavLink>
