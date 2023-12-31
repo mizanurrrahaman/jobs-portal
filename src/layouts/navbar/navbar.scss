@@ -3,6 +3,7 @@
 // Navbar Design Start
 .navbar {
   padding: 12px 0;
+  background-color: #f1f2f4;
   .container {
     .nav_wrapper {
       display: flex;
@@ -14,7 +15,7 @@
         column-gap: 24px;
       }
       .menu ul li a {
-        color: #5e6670;
+        color: $textColor;
         font-size: 14px;
         font-weight: 400;
         line-height: 20px;
@@ -22,7 +23,7 @@
         transition: all linear 0.3s;
       }
       .menu ul li a:hover {
-        color: #0a65cc;
+        color: $primary;
       }
       .phone_language {
         display: flex;
@@ -32,9 +33,16 @@
           display: flex;
           align-items: center;
           column-gap: 8px;
+          .phone_number {
+            color: $secondary;
+          }
           .down_arrow {
             height: 16px;
             width: 16px;
+            color: $textColor;
+          }
+          .english {
+            color: $textColor;
           }
           .commonBtn {
             @include btn;
