@@ -1,5 +1,5 @@
 @import "../../Sass/common/variables.scss";
-@import "../../Sass//mixins/btn.scss";
+@import "../../Sass/common/common.scss";
 // Navbar Design Start
 .navbar {
   padding: 12px 0;
@@ -44,13 +44,7 @@
           .english {
             color: $textColor;
           }
-          .commonBtn {
-            @include btn;
-          }
         }
-      }
-      .active {
-        color: #0a65cc;
       }
     }
   }
