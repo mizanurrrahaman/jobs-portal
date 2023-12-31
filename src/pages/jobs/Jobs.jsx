@@ -27,12 +27,14 @@ const Jobs = () => {
             {jobs && jobs.length > 0 ? (
               jobs.map((job, index) => (
                 <div key={index} className="job">
-                  <h3 className="title">title: {job.title} </h3>
-                  <h4 className="job-status">Jobes: {job.jobs} </h4>
-                  <span> Salary:{job.Salary} </span>
-                  <h5 className="thamel">themal: {job.themal} </h5>
-                  <img src={job.image} alt="Not Found" />
-                  <h6 className="location"> location : {job.location}</h6>
+                  <h3 className="title"> {job.title} </h3>
+                  <h4 className="job-status">{job.jobs} </h4>
+                  <span> {job.Salary} </span>
+                  <h5 className="thamel">{job.themal} </h5>
+                  <div className="item">
+                     <img className="img" src={job.image} alt="Not Found" />
+                     <h6 className="location">{job.location}</h6>
+                  </div> 
                 </div>
               ))
             ) : (
