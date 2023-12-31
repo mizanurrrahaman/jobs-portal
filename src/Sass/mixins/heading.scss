@@ -1,0 +1,10 @@
+@import "../common/variables.scss";
+
+// Heading  Start
+@mixin heading {
+  color: $secondary;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  font-family: $inter;
+}
