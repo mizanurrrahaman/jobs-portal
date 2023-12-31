@@ -1,5 +1,7 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
+import { FaPhoneVolume } from "react-icons/fa6";
+import { SlArrowDown } from "react-icons/sl";
 import "./navbar.scss";
 
 const Navbar = () => {
@@ -7,24 +9,36 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="container">
         <div className="nav_wrapper">
-          <div className="logo">
-            <h2>Jobportal</h2>
-          </div>
           <div className="menu">
             <ul>
               <li>
                 <NavLink to="/">Home</NavLink>
               </li>
               <li>
-                <NavLink to="/jobs">Jobs</NavLink>
+                <NavLink to="/jobs">Find Job</NavLink>
               </li>
               <li>
-                <NavLink>About Us</NavLink>
+                <NavLink>Employers</NavLink>
               </li>
               <li>
-                <NavLink>Contact Us</NavLink>
+                <NavLink>Candidates</NavLink>
+              </li>
+              <li>
+                <NavLink>Pricing Plans</NavLink>
+              </li>
+              <li>
+                <NavLink>Customer Supports</NavLink>
               </li>
             </ul>
+          </div>
+          <div className="phone_language">
+            <div className="phone_info">
+              <FaPhoneVolume />
+              <Link href="tel:+1-202-555-0178">+1-202-555-0178</Link>
+            </div>
+            <div className="phone_info">
+              🇺🇸 <span>English</span> <SlArrowDown className="down_arrow" />
+            </div>
           </div>
         </div>
       </div>
