@@ -1,130 +1,122 @@
 [
-    {
-      "title": "Techical Support Specialist",
-      "jobs": "Part-time",
-      "Salary": " $20,000 - $25,000",
-      "themal": "Google Inc.",
-      "location": " Dhaka, Bangladesh",
-      "image" : " "
-    },
-    {
-      "title": "Junior Graphic Designer",
-      "jobs": "Internship",
-      "Salary": "$20,000 - $25,000",
-      "themal": "Google Inc.",
-      "location": " Dhaka, Bangladesh",
-      "image" : " "
-    },
-    {
-      "title": "Software Engineer",
-      "jobs": "Full-Time",
-      "Salary": "$20,000 - $25,000",
-      "themal": "Google Inc.",
-      "location": " Dhaka, Bangladesh",
-      "image" : " "
-    },
-    {
-      "title": "UI/UX Designer",
-      "jobs": "Full-Time",
-      "Salary": "$20,000 - $25,000",
-      "themal": "Google Inc.",
-      "location": " Dhaka, Bangladesh",
-      "image" : " "
-    },
-    {
-      "title": "UI/UX Designer",
-      "jobs": "Full-Time",
-      "Salary": "$20,000 - $25,000",
-      "themal": "Google Inc.",
-      "location": " Dhaka, Bangladesh",
-      "image" : " "
-    },
-    {
-      "title": "Front End Developer",
-      "jobs": "Part-time",
-      "Salary": "$20,000 - $25,000",
-      "themal": "Google Inc.",
-      "location": " Dhaka, Bangladesh",
-      "image" : " "
-    },
-    {
-      "title": "Senior UX Designer",
-      "jobs": "Full-Time",
-      "Salary": " $20,000 - $25,000",
-      "themal": "Google Inc.",
-      "location": " Dhaka, Bangladesh",
-      "image" : " "
-    },
-    {
-      "title": "Interaction Designer",
-      "jobs": "Part-time",
-      "Salary": " $20,000 - $25,000",
-      "themal": "Google Inc.",
-      "location": " Dhaka, Bangladesh",
-      "image" : " "
-    },
-    {
-      "title": "Visual Designer",
-      "jobs": "Full-Time",
-      "Salary": " $20,000 - $25,000",
-      "themal": "Google Inc.",
-      "location": " Dhaka, Bangladesh",
-      "image" : " "
-    },
-    {
-      "title": "Product Designer",
-      "jobs": "Full-Time",
-      "Salary": " $20,000 - $25,000",
-      "themal": "Google Inc.",
-      "location": " Dhaka, Bangladesh",
-      "image" : " "
-    },
-    {
-      "title": "Senior UX Designer",
-      "jobs": "Internship",
-      "Salary": " $20,000 - $25,000",
-      "themal": "Google Inc.",
-      "location": " Dhaka, Bangladesh",
-      "image" : " "
-    },
-    {
-      "title": "Marketing Officer",
-      "jobs": "Internship",
-      "Salary": " $20,000 - $25,000",
-      "themal": "Google Inc.",
-      "location": " Dhaka, Bangladesh",
-      "image" : " "
-    },
-    {
-      "title": "Project Manager",
-      "jobs": "Full-Time",
-      "Salary": " $20,000 - $25,000",
-      "themal": "Google Inc.",
-      "location": " Dhaka, Bangladesh",
-      "image" : " "
-    },
-    {
-      "title": "Project Manager",
-      "jobs": "Full-Time",
-      "Salary": " $20,000 - $25,000",
-      "themal": "Google Inc.",
-      "location": " Dhaka, Bangladesh",
-      "image" : " "
-    },
-    {
-      "title": "Networking Engineer",
-      "jobs": "Internship",
-      "Salary": " $20,000 - $25,000",
-      "themal": "Google Inc.",
-      "location": " Dhaka, Bangladesh",
-      "image" : " "
-    },
-    {
-      "title": "Marketing Manager",
-      "jobs": "Internship",
-      "Salary": " $20,000 - $25,000",
-      "themal": "Google Inc.",
-      "location": " Dhaka, Bangladesh",
-      "image" : " "
-    }
+  {
+    "title": "Techical Support Specialist",
+    "jobs": "Part-time",
+    "Salary": " $20,000 - $25,000",
+    "themal": "Google Inc.",
+    "location": " Dhaka, Bangladesh",
+    "image": " "
+  },
+  {
+    "title": "Junior Graphic Designer",
+    "jobs": "Internship",
+    "Salary": "$20,000 - $25,000",
+    "themal": "Google Inc.",
+    "location": " Dhaka, Bangladesh",
+    "image": " "
+  },
+  {
+    "title": "Software Engineer",
+    "jobs": "Full-Time",
+    "Salary": "$20,000 - $25,000",
+    "themal": "Google Inc.",
+    "location": " Dhaka, Bangladesh",
+    "image": " "
+  },
+  {
+    "title": "UI/UX Designer",
+    "jobs": "Full-Time",
+    "Salary": "$20,000 - $25,000",
+    "themal": "Google Inc.",
+    "location": " Dhaka, Bangladesh",
+    "image": " "
+  },
+  {
+    "title": "UI/UX Designer",
+    "jobs": "Full-Time",
+    "Salary": "$20,000 - $25,000",
+    "themal": "Google Inc.",
+    "location": " Dhaka, Bangladesh",
+    "image": " "
+  },
+  {
+    "title": "Front End Developer",
+    "jobs": "Part-time",
+    "Salary": "$20,000 - $25,000",
+    "themal": "Google Inc.",
+    "location": " Dhaka, Bangladesh",
+    "image": " "
+  },
+  {
+    "title": "Senior UX Designer",
+    "jobs": "Full-Time",
+    "Salary": " $20,000 - $25,000",
+    "themal": "Google Inc.",
+    "location": " Dhaka, Bangladesh",
+    "image": " "
+  },
+  {
+    "title": "Interaction Designer",
+    "jobs": "Part-time",
+    "Salary": " $20,000 - $25,000",
+    "themal": "Google Inc.",
+    "location": " Dhaka, Bangladesh",
+    "image": " "
+  },
+  {
+    "title": "Visual Designer",
+    "jobs": "Full-Time",
+    "Salary": " $20,000 - $25,000",
+    "themal": "Google Inc.",
+    "location": " Dhaka, Bangladesh",
+    "image": " "
+  },
+  {
+    "title": "Product Designer",
+    "jobs": "Full-Time",
+    "Salary": " $20,000 - $25,000",
+    "themal": "Google Inc.",
+    "location": " Dhaka, Bangladesh",
+    "image": " "
+  },
+  {
+    "title": "Senior UX Designer",
+    "jobs": "Internship",
+    "Salary": " $20,000 - $25,000",
+    "themal": "Google Inc.",
+    "location": " Dhaka, Bangladesh",
+    "image": " "
+  },
+  {
+    "title": "Marketing Officer",
+    "jobs": "Internship",
+    "Salary": " $20,000 - $25,000",
+    "themal": "Google Inc.",
+    "location": " Dhaka, Bangladesh",
+    "image": " "
+  },
+  {
+    "title": "Project Manager",
+    "jobs": "Full-Time",
+    "Salary": " $20,000 - $25,000",
+    "themal": "Google Inc.",
+    "location": " Dhaka, Bangladesh",
+    "image": " "
+  },
+  {
+    "title": "Networking Engineer",
+    "jobs": "Internship",
+    "Salary": " $20,000 - $25,000",
+    "themal": "Google Inc.",
+    "location": " Dhaka, Bangladesh",
+    "image": " "
+  },
+  {
+    "title": "Marketing Manager",
+    "jobs": "Internship",
+    "Salary": " $20,000 - $25,000",
+    "themal": "Google Inc.",
+    "location": " Dhaka, Bangladesh",
+    "image": " "
+  }
 ]
