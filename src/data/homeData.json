@@ -1,0 +1,195 @@
+[
+  {
+    "logo": "",
+    "jobpilot": "Jobpilot",
+    "address": "6391 Elgin St. Celina, Delaware 10299, New York, United States of America",
+    "phone": " (319) 555-0115",
+    "mobile": "+1-202-555-0178",
+    "heroSection": {
+      "heroTitle": "Find a job that suits your interest & skills",
+      "heroText": "Aliquam vitae turpis in diam convallis finibus in at risus. Nullam in scelerisque leo, eget sollicitudin velit bestibulum.",
+      "heroImage": "",
+      "liveJob": "1,75,324",
+      "companies": "97,354",
+      "candidates": "38,47,154",
+      "newJobs": "7,532"
+    },
+    "popularVacancies": {
+      "title": "Most Popular Vacancies",
+      "Anesthesiologists": {
+        "title": "Anesthesiologists",
+        "openPositions": "45,904"
+      },
+      "Surgeons": {
+        "title": "Surgeons",
+        "openPositions": "50,364"
+      },
+      "Obstetricians-Gynecologists": {
+        "title": "Obstetricians-Gynecologists",
+        "openPositions": "4,339"
+      },
+      "Orthodontists": {
+        "title": "Orthodontists",
+        "openPositions": "20,079"
+      },
+      "Maxillofacial Surgeons": {
+        "title": "Maxillofacial Surgeons",
+        "openPositions": "74,875"
+      },
+      "Software Developer": {
+        "title": "Software Developer",
+        "openPositions": "43,359"
+      },
+      "Psychiatrists": {
+        "title": "Psychiatrists",
+        "openPositions": "18,599"
+      },
+      "Data Scientist": {
+        "title": "Data Scientist",
+        "openPositions": "28,200"
+      },
+      "Financial Manager": {
+        "title": "Financial Manager",
+        "openPositions": "61,391"
+      },
+      "Management Analysis": {
+        "title": "Management Analysis",
+        "openPositions": "93,046"
+      },
+      "IT Manager": {
+        "title": "IT Manager",
+        "openPositions": "50,963"
+      },
+      "Operations Research Analysis": {
+        "title": "Operations Research Analysis",
+        "openPositions": "16,627"
+      }
+    },
+    "workSection": {
+      "heading": "How Jobpilot Work",
+      "createAccount": {
+        "title": "Create account",
+        "text": "Aliquam facilisis egestas sapien, nec tempor leo tristique at."
+      },
+      "resume": {
+        "title": "Upload CV/Resume",
+        "text": "Curabitur sit amet maximus ligula. Nam a nulla ante. Nam sodales"
+      },
+      "suitableJob": {
+        "title": "Find suitable job",
+        "text": "Phasellus quis eleifend ex. Morbi nec fringilla nibh."
+      },
+      "applyJob": {
+        "title": "Apply job",
+        "text": "Curabitur sit amet maximus ligula. Nam a nulla ante, Nam sodales purus."
+      }
+    },
+    "popularCategory": {
+      "heading": "Popular category",
+      "graphicDesign": {
+        "title": "Graphics & Design",
+        "openPosition": "357"
+      },
+      "coding": {
+        "title": "Code & Programing",
+        "openPosition": "312"
+      },
+      "digitalMarketing": {
+        "title": "Digital Marketing",
+        "openPosition": "297"
+      },
+      "videoAnimation": {
+        "title": "Video & Animation",
+        "openPosition": "247"
+      },
+      "msuicAudio": {
+        "title": "Music & Audio",
+        "openPosition": "204"
+      },
+      "accountFinance": {
+        "title": "Account & Finance",
+        "openPosition": "167"
+      },
+      "healthCare": {
+        "title": "Health & Care",
+        "openPosition": "125"
+      },
+      "dataScience": {
+        "title": "Data & Science",
+        "openPosition": "57"
+      }
+    },
+    "topCompanies": {
+      "heading": "Top companies",
+      "dribbble": {
+        "companyName": "Dribbble",
+        "location": "Dhaka, Bangladesh",
+        "openPosition": "3"
+      },
+      "google": {
+        "companyName": "Google Inc",
+        "location": "USA",
+        "openPosition": "15"
+      },
+      "facebook": {
+        "companyName": "Facebook ",
+        "location": "USA",
+        "openPosition": "5"
+      },
+      "bracnet": {
+        "companyName": "BracNet ",
+        "location": "Dhaka, Bangladesh",
+        "openPosition": "8"
+      },
+      "arduino": {
+        "companyName": "Arduino",
+        "location": "Italy",
+        "openPosition": "2"
+      },
+      "canonical": {
+        "companyName": "Canonical",
+        "location": "London, United Kingdom",
+        "openPosition": "2"
+      }
+    },
+    "clientTestimony": {
+      "client1": {
+        "name": "Robert Fox",
+        "designation": "UI/UX Designer",
+        "text": "“Ut ullamcorper hendrerit tempor. Aliquam in rutrum dui. Maecenas ac placerat metus, in faucibus est.”",
+        "rating": "5",
+        "image": ""
+      },
+      "client2": {
+        "name": "Bessie Cooper",
+        "designation": "Creative Director",
+        "text": "“Mauris eget lorem odio. Mauris convallis justo molestie metus aliquam lacinia. Suspendisse ut dui vulputate augue condimentum ornare. Morbi vitae tristique ante”",
+        "rating": "5",
+        "image": ""
+      },
+      "client3": {
+        "name": "Jane Cooper",
+        "designation": "Photographer",
+        "text": "“Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse et magna quis nibh accumsan venenatis sit amet id orci. Duis vestibulum bibendum dapibus.”",
+        "rating": "4.5",
+        "image": ""
+      }
+    },
+    "becomeCandidate": {
+      "heading": "Become a Candidate",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras cursus a dolor convallis efficitur.",
+      "image": ""
+    },
+    "becomeEmployers": {
+      "heading": "Become a Employers",
+      "text": "Cras in massa pellentesque, mollis ligula non, luctus dui. Morbi sed efficitur dolor. Pelque augue risus, aliqu."
+    },
+    "socailMedia": {
+      "facebook": "",
+      "youtube": "",
+      "instagram": "",
+      "twitter": ""
+    },
+    "copyrightText": "@ 2021 Jobpilot - Job Portal. All rights Rserved"
+  }
+]
