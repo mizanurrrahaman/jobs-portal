@@ -1,33 +1,35 @@
 import React from "react";
-import "./jobs.scss";
 import { useEffect, useState } from "react";
 import axios from "axios";
+import "./jobs.scss";
 
 const url =
   "https://raw.githubusercontent.com/mizanurrrahaman/jobs-portal/main/src/data/jobs.json";
 
 const Jobs = () => {
-  let [jobs, setJobs] = useState();
+  let [jobs, setJobs] = useState([]);
+
+  // fetch data
   useEffect(() => {
-    async () => {
-      const jobsData = await axios.get(url);
+    const fetchJobs = async () => {
+      let jobsData = await axios.get(url);
       setJobs(jobsData.data);
     };
-    console.log(jobsData)
+    fetchJobs();
   }, []);
-  console.log(jobs);
 
+  console.log(jobs);
   return (
     <>
       <div className="jobs">
-        {user && user.length > 0 ? (
-          user.map((item, index) => (
-            <div key={index} className="item">
-              <h3>title: {item.title} </h3>
-              <h4>Jobes: {item.jobs} </h4>
-              <span> Salary:{item.Salary} </span>
-              <h5>themal: {item.themal} </h5>
-              <h6> location : {item.location}</h6>
+        {jobs && jobs.length > 0 ? (
+          jobs.map((job, index) => (
+            <div key={index} className="job">
+              <h3>title: {job.title} </h3>
+              <h4>Jobes: {job.jobs} </h4>
+              <span> Salary:{job.Salary} </span>
+              <h5>themal: {job.themal} </h5>
+              <h6> location : {job.location}</h6>
             </div>
           ))
         ) : (
