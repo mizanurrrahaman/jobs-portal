@@ -43,6 +43,7 @@ const Navbar = () => {
                 alt=""
               />
               <span>English</span> <SlArrowDown className="down_arrow" />
+              <button className="commonBtn">Hello</button>
             </div>
           </div>
         </div>
