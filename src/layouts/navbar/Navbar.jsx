@@ -44,7 +44,8 @@ const Navbar = () => {
                 src="https://flagcdn.com/w320/us.png"
                 alt=""
               />
-              <span className="english">English</span> <SlArrowDown className="down_arrow" />
+              <span className="english">English</span>{" "}
+              <SlArrowDown className="down_arrow" />
             </div>
           </div>
         </div>
