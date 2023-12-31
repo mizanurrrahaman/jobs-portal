@@ -1,2 +1,5 @@
 @import "./common/variables.scss";
 @import "./common/common.scss";
+.active {
+  color: $primary;
+}
