@@ -1,0 +1,56 @@
+@import "../../Sass/common/variables.scss";
+.jobs {
+  padding: 12px 0;
+  .container {
+    .jobs-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      flex-wrap: wrap;
+      .job {
+        width: 375px;
+        height: 170px;
+        border: 1px solid black;
+        background: linear-gradient(
+          90deg,
+          rgba(255, 246, 230, 1) 28%,
+          rgba(255, 255, 255, 1) 56%
+        );
+        padding: 24px 24px;
+        .title{
+          font-size: 18px;
+          line-height: 15px;
+          font-family: $inter;
+          color: $secondary;
+          font-weight: 500;
+        }
+        .job-status{
+          color: $textColor;
+          font-size: 14px;
+          padding: 5px 0 10px 0;
+          font-family: $inter;
+          line-height: 10px;
+        }
+        .job span{
+            font-weight: 400;
+            font-size: 14px;
+            color: $textColor;
+            padding: 0 0 25px 0;
+            line-height: 20px;
+        }
+        .thamel{
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            color: $secondary;
+        }
+        .location{
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            padding: 10px 0 8px 0;
+        }
+      }
+    }
+  }
+}
