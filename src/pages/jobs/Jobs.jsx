@@ -3,7 +3,8 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import "./jobs.scss";
 
-const url = "https://raw.githubusercontent.com/mizanurrrahaman/jobs-portal/main/src/data/jobs.json";
+const url =
+  "https://raw.githubusercontent.com/mizanurrrahaman/jobs-portal/main/src/data/jobs.json";
 
 const Jobs = () => {
   let [jobs, setJobs] = useState([]);
