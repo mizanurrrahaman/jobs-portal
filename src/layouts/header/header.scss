@@ -1,0 +1,67 @@
+@import "../../Sass/common/variables.scss";
+.header {
+  padding: 20px 0;
+  .container {
+    .header_wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .logo_input {
+        display: flex;
+        align-items: center;
+        .search_bar {
+          padding-left: 32px;
+          .search_option {
+            display: flex;
+            align-items: center;
+            column-gap: 32px;
+            padding-left: 32px;
+            padding: 9px 200px 9px 24px;
+            border: 1px solid $borderColor;
+            border-radius: 5px;
+            .select_country {
+              border: none;
+              outline: none;
+              background-color: transparent;
+              .country_name {
+                color: $secondary;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 20px;
+                font-family: $inter;
+              }
+            }
+            .icon_input {
+              display: flex;
+              align-items: center;
+              column-gap: 12px;
+              .serach_icon {
+                color: $primary;
+                font-size: 24px;
+              }
+              input {
+                outline: none;
+                border: none;
+                width: 255px;
+                color: $textColor;
+                font-size: 16px;
+                ::placeholder {
+                  color: $textColor;
+                  font-family: $inter;
+                  font-weight: 400;
+                  font-size: 16px;
+                  line-height: 24px;
+                }
+              }
+            }
+          }
+        }
+      }
+      .header_btn {
+        display: flex;
+        align-items: center;
+        column-gap: 12px;
+      }
+    }
+  }
+}
