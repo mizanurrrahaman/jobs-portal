@@ -1,0 +1,6 @@
+@import "../../Sass/mixins/btn.scss";
+@import "../../Sass/common/variables.scss";
+
+.common_btn {
+  @include btn;
+}
