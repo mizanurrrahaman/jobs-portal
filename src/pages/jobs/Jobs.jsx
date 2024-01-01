@@ -30,10 +30,12 @@ const Jobs = () => {
                   <h3 className="title"> {job.title} </h3>
                   <h4 className="job-status">{job.jobs} </h4>
                   <span> {job.Salary} </span>
-                  <h5 className="thamel">{job.themal} </h5>
                   <div className="item">
                      <img className="img" src={job.image} alt="Not Found" />
+                    <div>
+                     <h5 className="thamel">{job.themal} </h5>
                      <h6 className="location">{job.location}</h6>
+                    </div>  
                   </div> 
                 </div>
               ))
