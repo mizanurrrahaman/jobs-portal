@@ -8,6 +8,8 @@ import MainLayout from "./layouts/MainLayout";
 import Home from "./pages/home/Home";
 import Jobs from "./pages/jobs/Jobs";
 import Dashbord from "./pages/dashbord/Dashbord";
+import ResetPassword from "./reset-password/ResetPassword";
+
 
 // All Routes
 const router = createBrowserRouter(
@@ -16,6 +18,7 @@ const router = createBrowserRouter(
       <Route path="/" element={<Home />} />
       <Route path="/jobs" element={<Jobs />} />
       <Route path="/dashbord" element= {<Dashbord/>}/>
+      <Route path="/resetpassword" element= {<ResetPassword/>}/>
     </Route>
   )
 );

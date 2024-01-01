@@ -1,0 +1,18 @@
+.common_btn {
+  background-color: #fff;
+  padding: 12px 24px;
+  color: #ffa500;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  font-family: "'Inter', sans-serif";
+  transition: all linear 0.3s;
+  border: 1px solid #cee0f5;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.common_btn:hover {
+  background-color: #ffa500;
+  color: #fff;
+  border: 1px solid transparent;
+}/*# sourceMappingURL=commonBtn.css.map */
