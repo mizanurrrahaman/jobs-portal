@@ -21,7 +21,7 @@ const Navbar = () => {
                 <NavLink>Employers</NavLink>
               </li>
               <li>
-                <NavLink>Candidates</NavLink>
+                <NavLink to="/dashbord">Dashbord</NavLink>
               </li>
               <li>
                 <NavLink>Pricing Plans</NavLink>
