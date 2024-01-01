@@ -2,13 +2,84 @@
 .jobs {
   padding: 12px 0;
   .container {
+    .find-job{
+      background-color: #F1F2F4;
+      padding: 0 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .find-job h5{
+      font-size: 16px;
+      padding: 25px 0;
+      font-family: $inter;
+      color: $secondary;
+    }
+    .find-job h5:hover{
+      color: $textColor;
+      font-size: 18px;
+      transition: all linear 0.3s;
+    }
+    .search{
+      margin: 20px 0;
+      padding: 15px 10px;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+      border-radius: 8px;
+    }
+    .search-wrapper{
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    .search-wrapper span{
+      width: 500px;
+      padding: 12px 0;
+      font-size: 16px;
+      font-weight: 400;
+      text-transform: capitalize;
+      line-height: 24px;
+      color: $textColor;
+    }
+    .icon span{
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+    .i{
+      font-size: 24px;
+      color: #0A65CC;
+      font-weight: 500;
+    }
+    .btn-item{
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+    .btn{
+      background-color: #fff;
+      padding: 12px 24px;
+      color: $primary;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 24px;
+      font-family: $inter;
+      transition: all linear 0.3s;
+      border: 1px solid #cee0f5;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+    .btn:hover{
+      background-color: $primary;
+      color: $white;
+      border: 1px solid transparent;
+    }
     .jobs-wrapper {
       display: flex;
       align-items: center;
-      gap: 24px;
+      gap: 25px;
       flex-wrap: wrap;
       .job {
-        width: 375px;
+        width: 420px;
         height: 170px;
         border: 1px solid #E4E5E8;
         border-radius: 8px;
@@ -26,11 +97,17 @@
           font-weight: 500;
         }
         .job-status{
-          color: $textColor;
+          color: green;
           font-size: 14px;
           padding: 5px 0 10px 0;
           font-family: $inter;
           line-height: 10px;
+        }
+        .job-item{
+          padding-top: 10px;
+          display: flex;
+          align-items: center;
+          gap: 10px;
         }
         .job span{
             font-weight: 400;
@@ -58,9 +135,37 @@
         .img{
             width: 30px;
             height: 30px;
-            
-        }
+          }
+          
       }
     }
+    .number{
+      padding: 50px 50px;
+      margin: 0 auto;
+      position: relative;
+    }
+  .number-item{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 30%;
+    gap: 25px;
+  }
+  .number-item .ic{
+    display: flex;
+    width: 48px;
+    height: 48px;
+    padding: 14px 16px;
+    border-radius: 50%;
+    background-color:$borderColor;
+    justify-content: center;
+    align-items: center;
+  }
+  .number-item .ic:hover{
+    background-color: orangered;
+    color: rgb(252, 252, 252);
+    transition: all linear 0.6ms;
+  }
+
   }
 }
