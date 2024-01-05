@@ -27,7 +27,7 @@ const Navbar = () => {
                 <NavLink>Pricing Plans</NavLink>
               </li>
               <li>
-                <NavLink>Customer Supports</NavLink>
+                <NavLink to="/employeeacount">Customer Supports</NavLink>
               </li>
             </ul>
           </div>

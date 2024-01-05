@@ -6,16 +6,16 @@ let passwordFormat =
 
 const passvalidation = Yup.object({
     newpass : Yup.string()
-            .matches( passwordFormat, "Please Enter Eour Password" )
+            .matches( passwordFormat, "Please Enter Your Password" )
             .min(8, "Must be 8 chracter or higher")
             .max(15, "Must be 15 characters or less")
-            .required("Please Enter Eour Password"),
+            .required("Please Enter Your Password"),
 
     conpass : Yup.string()
             .matches( passwordFormat, "Your Password Not Mach" )
             .min(8, "Must be 8 chracter or higher")
             .max(15, "Must be 15 characters or less")
-            .required("Your Password Not Mach")
+            .required("Your Password Not Mach"),
 })
 
 export default passvalidation
