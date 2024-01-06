@@ -1,0 +1,39 @@
+// ===== Popular Vacancies Section Design Start =====
+@import "../../Sass/common/variables.scss";
+@import "../../Sass/mixins/heading.scss";
+
+.vacancies {
+  padding: 100px 0;
+  background-color: $white;
+  .container {
+    h2 {
+      @include heading;
+    }
+    .vacancies_wrapper {
+      padding-top: 50px;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      column-gap: 24px;
+      row-gap: 32px;
+      .vacancy_item {
+        width: 312px;
+        h4 {
+          color: $secondary;
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 28px;
+          font-family: $inter;
+        }
+        p {
+          color: #767f8c;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 20px;
+          font-family: $inter;
+        }
+      }
+    }
+  }
+}
+// ===== Popular Vacancies Section Design End =====

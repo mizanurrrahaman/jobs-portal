@@ -1,6 +1,6 @@
 # JobPortal Application
 
-## JobPortal App based on Reactsj and Firebase
+## JobPortal App based on ReactJS and Firebase
 
 ### How to Install this Project
 
