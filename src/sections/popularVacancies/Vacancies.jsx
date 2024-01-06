@@ -3,7 +3,8 @@ import "./vacancies.scss";
 
 const Vacancies = ({ vacancyData }) => {
   console.log(vacancyData);
-  const { title, Anesthesiologists } = vacancyData;
+  const { title, Anesthesiologists, Surgeons, Obstetricians_Gynecologists } =
+    vacancyData;
   return (
     <section className="vacancies">
       <div className="container">
@@ -14,8 +15,8 @@ const Vacancies = ({ vacancyData }) => {
             <p>{Anesthesiologists.openPositions} Open Piositions</p>
           </div>
           <div className="vacancy_item">
-            <h4>{Anesthesiologists.title}</h4>
-            <p>{Anesthesiologists.openPositions} Open Piositions</p>
+            <h4>{Surgeons.title}</h4>
+            <p>{Surgeons.openPositions} Open Piositions</p>
           </div>
           <div className="vacancy_item">
             <h4>{Anesthesiologists.title}</h4>
