@@ -2,7 +2,6 @@ import React from "react";
 import "./vacancies.scss";
 
 const Vacancies = ({ vacancyData }) => {
-  console.log(vacancyData);
   const {
     title,
     Anesthesiologists,

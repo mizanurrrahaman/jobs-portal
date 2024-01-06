@@ -1,0 +1,74 @@
+// ==== Category Design Start =====
+@import "../../Sass/common/variables.scss";
+@import "../../Sass/mixins/heading.scss";
+
+.category {
+  padding: 100px 0;
+  .container {
+    .category_heading {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .heading {
+        h2 {
+          @include heading;
+          text-transform: capitalize;
+        }
+      }
+      .icon {
+        display: flex;
+        align-items: center;
+        column-gap: 5px;
+        .icon_style {
+          color: $primary;
+          font-family: $inter;
+          cursor: pointer;
+        }
+      }
+    }
+    .category_wrapper {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      flex-wrap: wrap;
+      .category_item {
+        width: 312px;
+        display: flex;
+        align-items: center;
+        column-gap: 16px;
+        padding: 24px;
+        .category_icon {
+          border-radius: 8px;
+          width: 68px;
+          height: 68px;
+          background-color: #f4ebdc;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          .icon_design {
+            width: 24px;
+            height: 24px;
+            color: $primary;
+          }
+        }
+        .category_info {
+          h4 {
+            color: $secondary;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 28px;
+            font-family: $inter;
+          }
+          p {
+            color: #767f8c;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+            font-family: $inter;
+          }
+        }
+      }
+    }
+  }
+}
+// ==== Category Design End =====
