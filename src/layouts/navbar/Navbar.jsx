@@ -18,7 +18,7 @@ const Navbar = () => {
                 <NavLink to="/jobs">Find Job</NavLink>
               </li>
               <li>
-                <NavLink>Employers</NavLink>
+                <NavLink to="/resetpassword">Reset Password</NavLink>
               </li>
               <li>
                 <NavLink to="/dashbord">Dashbord</NavLink>
@@ -27,7 +27,7 @@ const Navbar = () => {
                 <NavLink>Pricing Plans</NavLink>
               </li>
               <li>
-                <NavLink>Customer Supports</NavLink>
+                <NavLink to="/employeeacount">Customer Supports</NavLink>
               </li>
             </ul>
           </div>

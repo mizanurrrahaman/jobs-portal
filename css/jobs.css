@@ -1,0 +1,58 @@
+.jobs {
+  padding: 12px 0;
+}
+.jobs .container .jobs-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.jobs .container .jobs-wrapper .job {
+  width: 375px;
+  height: 170px;
+  border: 1px solid #E4E5E8;
+  border-radius: 8px;
+  background: linear-gradient(90deg, rgb(255, 246, 230) 28%, rgb(255, 255, 255) 56%);
+  padding: 24px 24px;
+}
+.jobs .container .jobs-wrapper .job .title {
+  font-size: 18px;
+  line-height: 15px;
+  font-family: "'Inter', sans-serif";
+  color: #18191c;
+  font-weight: 500;
+}
+.jobs .container .jobs-wrapper .job .job-status {
+  color: #5e6670;
+  font-size: 14px;
+  padding: 5px 0 10px 0;
+  font-family: "'Inter', sans-serif";
+  line-height: 10px;
+}
+.jobs .container .jobs-wrapper .job .job span {
+  font-weight: 400;
+  font-size: 14px;
+  color: #5e6670;
+  padding: 0 0 25px 0;
+  line-height: 20px;
+}
+.jobs .container .jobs-wrapper .job .thamel {
+  font-weight: 500;
+  font-size: 16px;
+  padding-bottom: 8px;
+  color: #18191c;
+}
+.jobs .container .jobs-wrapper .job .location {
+  font-weight: 400;
+  font-size: 14px;
+}
+.jobs .container .jobs-wrapper .job .item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding-top: 20px;
+}
+.jobs .container .jobs-wrapper .job .img {
+  width: 30px;
+  height: 30px;
+}/*# sourceMappingURL=jobs.css.map */

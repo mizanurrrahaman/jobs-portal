@@ -24,7 +24,7 @@
         "title": "Surgeons",
         "openPositions": "50,364"
       },
-      "Obstetricians-Gynecologists": {
+      "Obstetricians_Gynecologists": {
         "title": "Obstetricians-Gynecologists",
         "openPositions": "4,339"
       },
@@ -32,11 +32,11 @@
         "title": "Orthodontists",
         "openPositions": "20,079"
       },
-      "Maxillofacial Surgeons": {
+      "MaxillofacialSurgeons": {
         "title": "Maxillofacial Surgeons",
         "openPositions": "74,875"
       },
-      "Software Developer": {
+      "SoftwareDeveloper": {
         "title": "Software Developer",
         "openPositions": "43,359"
       },
@@ -44,23 +44,23 @@
         "title": "Psychiatrists",
         "openPositions": "18,599"
       },
-      "Data Scientist": {
+      "DataScientist": {
         "title": "Data Scientist",
         "openPositions": "28,200"
       },
-      "Financial Manager": {
+      "FinancialManager": {
         "title": "Financial Manager",
         "openPositions": "61,391"
       },
-      "Management Analysis": {
+      "ManagementAnalysis": {
         "title": "Management Analysis",
         "openPositions": "93,046"
       },
-      "IT Manager": {
+      "ITManager": {
         "title": "IT Manager",
         "openPositions": "50,963"
       },
-      "Operations Research Analysis": {
+      "OperationsResearchAnalysis": {
         "title": "Operations Research Analysis",
         "openPositions": "16,627"
       }
