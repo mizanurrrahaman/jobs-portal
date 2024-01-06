@@ -1,0 +1,9 @@
+@import "../../Sass/common/variables.scss";
+.about{
+    padding: 12px 0;
+    .container{
+        .about-heading{
+            display: flex;
+        }
+    }
+}
