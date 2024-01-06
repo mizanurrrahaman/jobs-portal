@@ -1,0 +1,94 @@
+@import "../../Sass/common/variables.scss";
+@import "../../Sass/common/common.scss";
+@import "../../Sass/mixins/paragraph.scss";
+
+.footer{
+    background-color: #222;
+    padding: 100px 0;
+
+    .footer_wrapper{
+        display: flex;
+        justify-content: space-between;
+
+        .footer_first_detailes{
+            h4{
+                padding-top: 25px;
+                color: $textColor;
+                font-size: 16px;
+                font-weight: 500;
+                font-family: $inter;
+                a{
+                    color: $white;
+                }
+            }
+            p{
+                color: $textColor;
+                font-size: 14px;
+                font-weight: 400;
+                font-family: $inter;
+                padding-top: 15px;
+            }
+        }
+        .footer_detailes{
+            h3{
+                color: $white;
+                font-size: 25px;
+                font-weight: 500;
+                font-family: $inter;
+                padding-bottom: 50px;
+            }
+            .footer_item{
+                ul{
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 20px;
+                    li{
+
+                        a{
+                            color: $textColor;
+                            font-size: 18px;
+                            font-weight: 500;
+                            font-family: $inter;
+                            text-transform: capitalize;
+                            transition: all linear .3s;
+                            &:hover{
+                                color: $white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.copyright{
+    background-color: #222;
+    padding: 50px 0;
+    border-top: 1px solid $textColor;
+    .copy_main{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        p{
+            color: $textColor;
+            font-size: 14px;
+            font-weight: 400;
+            font-family: $inter;
+        }
+        .copy_social{
+            ul{
+                li{
+                    a{
+                        display: inline-block;
+                        margin: 0 10px;
+                        color: $textColor;
+                        transition: all linear .3s;
+                        &:hover{
+                            color: $white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

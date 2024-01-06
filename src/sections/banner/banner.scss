@@ -1,0 +1,36 @@
+@import "../../Sass/common/variables.scss";
+@import "../../Sass/mixins/heading.scss";
+@import "../../Sass/mixins/paragraph.scss";
+
+.banner {
+  padding: 100px 0;
+  .banner_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .banner_info {
+      .hero_title {
+        @include heading;
+        font-size: $heroHeading;
+        width: 545px;
+        line-height: 64px;
+      }
+      .hero_text {
+        @include paragraph;
+        line-height: 28px;
+        width: 530px;
+        padding: 24px 0 32px 0;
+      }
+    }
+    .banner_img {
+      height: 382px;
+      width: 492px;
+      overflow: hidden;
+      .image {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}
