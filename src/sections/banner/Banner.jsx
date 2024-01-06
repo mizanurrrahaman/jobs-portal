@@ -4,7 +4,6 @@ import Image from "../../components/img/Image";
 import "./banner.scss";
 
 const Banner = ({ bannerData }) => {
-  console.log(bannerData);
   const { heroTitle, heroText } = bannerData;
   return (
     <section className="banner">
